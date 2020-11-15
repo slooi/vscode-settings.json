@@ -1,0 +1,40 @@
+{
+	"window.zoomLevel": 1,
+	"explorer.confirmDelete": false,
+
+	// Allow powershell
+	"terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+
+	// The number of spaces a tab is equal to. This setting is overridden
+	// based on the file contents when `editor.detectIndentation` is true.
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces`
+	// will be detected based on the file contents. Set to false to keep
+	// the values you've explicitly set, above.
+	"editor.detectIndentation": false,
+
+	"compile-hero.javascript-output-directory": "",
+	"compile-hero.typescript-output-directory": "",
+
+	"python.linting.enabled": true,
+	"vim.handleKeys": {
+		"<C-c>": false,
+		"<C-v>": false,
+		"<C-x>": false
+	},
+	"editor.codeActionsOnSave": null,
+	"explorer.confirmDragAndDrop": false
+}
